@@ -6,7 +6,7 @@ export class CreateActividadesDiariasDto {
       public readonly detalleActividad?: string,
     ){}
     static create( props: {[key:string]: any} ): [string?, CreateActividadesDiariasDto?]  {
-  
+  //
       const { nombreActividad, detalleActividad, fechaActividad, doctorId} = props;
   
       if ( !nombreActividad ) return ['la propiedad nombre es requerida', undefined];

@@ -1,5 +1,5 @@
 export class UpdateActividadesDiariasDto {
-
+//
     private constructor(
         public readonly id: number,
         public readonly nombreActividad: string,

@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { ActividadesDiariasController } from './controller';
-
+//
 export class ActividadesDiariasRoutes {
   static get routes(): Router {
     const router = Router();
